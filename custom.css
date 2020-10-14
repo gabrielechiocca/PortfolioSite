@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-secondary:active
+{
+  box-shadow: none !important;
+}
+
+.btn-secondary:focus{
+  box-shadow: 0 5px 10px 0 rgba(0, 121, 107, 0.1);
+  opacity: 1;
+    color: #ff5c26;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.conthead{
+  margin-top: 130px;
+}
+.fontnuovo{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight:bolder;
+  color:rgb(55, 57, 71);
+}
+.rectangle {
+  width: 60%;
+  height: 410px;
+  background-color: rgb(254,233,215);
+  position: absolute;
+  left: auto;
+  top:88px;
+  right: 0;
+  bottom: auto;
+  border-radius: 1px;
+  z-index: -2;
+  animation: myfirst 4s linear 0s infinite alternate;
+}
+@keyframes myfirst {
+  0%   {background-color:rgb(225,235,255);}
+  25%  {background-color:rgb(250, 231, 239);}
+  50%  {background-color:rgb(246, 240, 225);}
+  100%  {background-color:rgb(254, 233, 215);}
+}
+ .ml-6{
+   margin-left: 660px;
+ }
+.mt-6{
+  margin-top: 80px;
+}
+
+.my-6{
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+
+.btn-primary {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #c84120;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff5c26;
+    border-color: #c84120;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #c84120;
+    border-color: #c84120;
+    box-shadow: transparent;
+  }
+
+
+.btn-primary:hover {
+    background-color: #ff5c26;
+    border-color: #c84120;
+}
+
+.btn-secondary {
+    background-color: rgba(0, 121, 107, 0);
+    box-shadow: none;
+    color: #ff5c26;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+    color: #ff5c26;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #ff5c26;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 121, 107, 0.1);
+  opacity: 1;
+    color: #ff5c26;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.animate__fadeInLeft > button {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.px-6{
+  padding-right: 66px;
+  padding-left: 66px;
+}
+
+.sezionebg{
+  background-color: #fde9d8;
+}
+
+.sezpadd{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.marginfothead{
+  margin-left: -130px;
+  margin-top: -70px;
+}
+
+.seztopmarg{
+  padding-top: 200px;
+}
+
+.cont-topmargin{
+  padding-top: 300px;
+}
+.fotopos{
+    width: 10%;
+}
